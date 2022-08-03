@@ -19,6 +19,7 @@
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+    --section-header-align: center;
 }
 html{   
     scroll-behavior: smooth;
@@ -45,6 +46,9 @@ a{
 }
 .card-category{   
     color: #D73953;
+}
+.section-header{
+    text-align: var(--section-header-align)
 }
 .section-tagline{   
     color: #D73953;
