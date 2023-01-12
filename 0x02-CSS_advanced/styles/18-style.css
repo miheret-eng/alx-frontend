@@ -391,6 +391,15 @@ a:active{
 .footer{
     padding: var(--footer-padding);   
 }
+.navbar-menu{
+    float: right;   
+}
+.nav{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;   
+}
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
